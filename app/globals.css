@@ -1,16 +1,12 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@import 'swiper/css';
+@import 'swiper/css/autoplay';
+@import 'swiper/css/navigation';
+
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -19,8 +15,81 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+@layer utilities {
+  .fade-word {
+    display: inline-block;
+    position: relative;
+  }
+
+  .fade-word span {
+    position: absolute;
+    opacity: 0;
+    animation: wordFade 9s infinite;
+  }
+
+  .fade-word span:nth-child(1) {
+    animation-delay: 0s;
+  }
+
+  .fade-word span:nth-child(2) {
+    animation-delay: 3s;
+  }
+
+  .fade-word span:nth-child(3) {
+    animation-delay: 6s;
+  }
+
+  @keyframes wordFade {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    5% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    30% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    35% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+}
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.1);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 8s ease-in-out infinite;
 }
