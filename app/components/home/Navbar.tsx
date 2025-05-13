@@ -15,9 +15,8 @@ const Navbar = () => {
         { href: '/', label: 'Accueil' },
         { href: '/a-propos', label: 'À propos' },
         { href: '/services', label: 'Services' },
-        { href: '/formations', label: 'Formations' },
-        { href: '/interventions', label: 'Interventions' },
-        { href: '/contact', label: 'Contact' },
+        { href: '/programmes', label: 'Programmes' },
+        { href: '/references', label: 'References' },
     ]
 
     useEffect(() => {
@@ -49,7 +48,7 @@ const Navbar = () => {
                             {label}
                         </Link>
                     ))}
-                    <Link href="/contact">
+                    <Link href="#contact">
                         <button className="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2 rounded-full ml-4">
                             Faire appel
                         </button>

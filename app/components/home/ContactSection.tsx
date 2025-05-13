@@ -17,7 +17,7 @@ const ContactSection = () => {
         >
             <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
                 {/* Map & adresse */}
-                <div className="rounded-lg overflow-hidden shadow-md">
+                <div id='contact' className="rounded-lg overflow-hidden shadow-md">
                     <iframe
                         className="w-full h-96"
                         src="https://www.google.com/maps?q=Immeuble+Elysée,+Cité+Keur+Gorgui,+Dakar,+Sénégal&output=embed"
