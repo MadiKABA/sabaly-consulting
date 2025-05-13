@@ -31,7 +31,6 @@ const PartenairesSection = () => {
                 <Swiper
                     modules={[Autoplay, Pagination]}
                     spaceBetween={30}
-                    slidesPerView={4}
                     loop={true}
                     autoplay={{
                         delay: 2500,
@@ -42,6 +41,17 @@ const PartenairesSection = () => {
                         el: '.custom-swiper-pagination',
                         bulletClass: 'swiper-pagination-bullet',
                         bulletActiveClass: 'swiper-pagination-bullet-active',
+                    }}
+                    breakpoints={{
+                        0: {
+                            slidesPerView: 1,
+                        },
+                        640: {
+                            slidesPerView: 2,
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                        },
                     }}
                     className="!overflow-hidden"
                 >
