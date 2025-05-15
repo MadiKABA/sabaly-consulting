@@ -1,6 +1,6 @@
 "use client";
 
-import { CheckCircle, Stars } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 const programmes = [

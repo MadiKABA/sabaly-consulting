@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Star, Eye } from 'lucide-react'
 
 const Card = ({
     title,
