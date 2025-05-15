@@ -37,7 +37,7 @@ const ContactSection = () => {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className="bg-white shadow-sm p-6 rounded-lg"
                 >
-                    <h2 className="text-3xl font-bold text-gray-800 mb-8">📬 Contactez-nous</h2>
+                    <h2 className="text-3xl font-bold text-gray-800 mb-8">Contactez-nous</h2>
                     <form className="space-y-6">
                         {/* Nom et email */}
                         <div>

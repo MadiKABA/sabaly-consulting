@@ -1,11 +1,11 @@
 "use client";
 
-import { Stars } from "lucide-react";
+import { CheckCircle, Stars } from "lucide-react";
 import { motion } from "framer-motion";
 
 const programmes = [
   {
-    title: "🚀 Starter Pack de l’Entrepreneur",
+    title: "Starter Pack de l’Entrepreneur",
     tagline:
       "Un tremplin stratégique pour lancer et structurer votre projet entrepreneurial.",
     audience: [
@@ -26,7 +26,7 @@ const programmes = [
     examples: "Ils nous ont fait confiance : SABAN AGRO, LAB’EQUIP, SophieResto…",
   },
   {
-    title: "🌱 Non-Profit Growth Lab",
+    title: "Non-Profit Growth Lab",
     tagline:
       "Un accélérateur pour les organisations à but non lucratif qui veulent structurer, grandir et impacter.",
     audience: [
@@ -73,7 +73,7 @@ export default function ProgrammesSection() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-900">
-          📈 NOS PROGRAMMES
+          NOS PROGRAMMES
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -86,17 +86,7 @@ export default function ProgrammesSection() {
               viewport={{ once: true }}
               className="bg-white p-8 rounded-xl shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="flex items-center gap-2 mb-4 text-indigo-600">
-                <motion.div
-                  animate={{ rotate: [0, 15, -15, 0] }}
-                  transition={{ repeat: Infinity, duration: 2 }}
-                >
-                  <Stars className="w-6 h-6" />
-                </motion.div>
-                <span className="font-semibold tracking-wide uppercase text-sm">
-                  Programme {index + 1}
-                </span>
-              </div>
+
 
               <h3 className="text-2xl font-bold mb-2 text-gray-900">{prog.title}</h3>
               <p className="mb-4 text-base text-gray-700 leading-relaxed">{prog.tagline}</p>
@@ -104,7 +94,8 @@ export default function ProgrammesSection() {
               <ul className="space-y-1 text-gray-700 mb-4">
                 {prog.highlights.map((item, i) => (
                   <li key={i} className="flex items-start gap-2">
-                    <span>✅</span> <span>{item}</span>
+                    <CheckCircle size={16} className="text-[#005A9C] mt-[2px]" />
+                    <span>{item}</span>
                   </li>
                 ))}
               </ul>

@@ -98,7 +98,7 @@ const ServicesSection = () => {
                     className="mt-12"
                 >
                     <Link
-                        href="/nos-services"
+                        href="/services"
                         className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-[0_0_15px_rgba(0,112,243,0.4)] hover:bg-blue-700 transition-all duration-300"
                     >
                         Voir plus

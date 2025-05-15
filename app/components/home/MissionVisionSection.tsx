@@ -24,10 +24,6 @@ const Card = ({
             viewport={{ once: true }}
             className={`relative bg-white rounded-2xl p-10 pl-8 shadow-xl border-l-8 ${borderColor} backdrop-blur-sm overflow-hidden`}
         >
-            {/* Spinning Star */}
-            <div className="absolute -top-6 -right-6 w-24 h-24 animate-spin-slow opacity-30">
-                <Star className="text-yellow-400 w-full h-full" />
-            </div>
 
             <div className="flex items-center gap-4 mb-4">
                 <div className="text-4xl">{icon}</div>
@@ -59,14 +55,14 @@ const MissionVisionSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                     <Card
                         title="Notre Mission"
-                        icon={<span>🎯</span>}
+                        icon={<span></span>}
                         content="Fournir des solutions stratégiques, financières et opérationnelles personnalisées, pour aider les organisations à renforcer leur efficacité, sécuriser leurs financements et créer un impact durable."
                         borderColor="border-orange-500"
                         lineColor="bg-orange-500"
                     />
                     <Card
                         title="Notre Vision"
-                        icon={<Eye className="w-10 h-10 text-blue-900" />}
+                        icon={<span></span>}
                         content="Être un cabinet de référence en Afrique pour la structuration, la croissance et la professionnalisation des organisations à fort potentiel d’impact."
                         borderColor="border-blue-900"
                         lineColor="bg-blue-900"

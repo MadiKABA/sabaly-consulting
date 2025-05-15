@@ -5,7 +5,7 @@ import { CheckCircle } from "lucide-react";
 
 const services = [
     {
-        title: "🧭 Stratégie & Croissance",
+        title: "Stratégie & Croissance",
         items: [
             "Plans stratégiques pluriannuels",
             "Business models & plans d’affaires",
@@ -14,7 +14,7 @@ const services = [
         ],
     },
     {
-        title: "📊 Conseil Financier & Révision",
+        title: "Conseil Financier & Révision",
         items: [
             "Restructuration financière",
             "Révision comptable, assistance audit",
@@ -22,7 +22,7 @@ const services = [
         ],
     },
     {
-        title: "📈 Contrôle de Gestion",
+        title: "Contrôle de Gestion",
         items: [
             "Budgets, forecasts, reporting",
             "Suivi de la performance",
@@ -30,7 +30,7 @@ const services = [
         ],
     },
     {
-        title: "📚 Comptabilité",
+        title: "Comptabilité",
         items: [
             "Tenue comptable (SYSCOA, IFRS, US GAAP, SYCEBNL)",
             "Comptabilité analytique",
@@ -38,7 +38,7 @@ const services = [
         ],
     },
     {
-        title: "🧩 Audit & Organisation",
+        title: "Audit & Organisation",
         items: [
             "Diagnostic organisationnel",
             "Audit de performance",
@@ -46,7 +46,7 @@ const services = [
         ],
     },
     {
-        title: "💻 Digitalisation & Process",
+        title: "Digitalisation & Process",
         items: [
             "Mise en place d’ERP",
             "Manuels de procédures",
@@ -54,7 +54,7 @@ const services = [
         ],
     },
     {
-        title: "🤝 Support Opérationnel",
+        title: "Support Opérationnel",
         items: [
             "Mise à disposition de personnel (CFO, RH, admin)",
             "Gestion paie, achats, subventions",
