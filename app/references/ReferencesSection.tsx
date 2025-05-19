@@ -7,7 +7,6 @@ const references = [
         title: "Secteur public & éducation",
         items: [
             "Ministère de l’Éducation Nationale du Sénégal : assistance financière et technique (PASEB, ADEMII), diagnostics organisationnels.",
-            "Ministère de l’Enseignement Supérieur : assistance sur projets financés par l’État.",
         ],
     },
     {
