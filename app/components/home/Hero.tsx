@@ -46,7 +46,7 @@ const Hero = () => {
                             </span>
                             .
                         </p>
-                        <Link href="/contact">
+                        <Link href="#contact">
                             <button className="mt-6 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full shadow-md transition">
                                 Contactez-nous
                             </button>

@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://sabalyconsulting.com/images/logo.png", // Remplace par une image réelle
+        url: "https://sabalyconsulting.com/logo.png", // Remplace par une image réelle
         width: 1200,
         height: 630,
         alt: "Sabaly Consulting - Conseil stratégique et structuration en Afrique",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     description:
       "Des solutions stratégiques sur mesure pour les organisations africaines : structuration, performance, impact.",
     creator: "@sabalyconsulting", // si disponible
-    images: ["https://sabalyconsulting.com/images/logo.png"],
+    images: ["https://sabalyconsulting.com/logo.png"],
   },
   icons: {
     icon: "/logo.png",
