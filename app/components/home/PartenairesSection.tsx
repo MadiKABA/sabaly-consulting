@@ -12,7 +12,8 @@ const partenaires = [
     { id: 2, name: 'Partenaire 2', logo: '/images/partner/partner2.png' },
     { id: 3, name: 'Partenaire 3', logo: '/images/partner/partner3.png' },
     { id: 4, name: 'Partenaire 4', logo: '/images/partner/partner4.jpg' },
-    { id: 5, name: 'Partenaire 5', logo: '/images/partner/partner5.png' },
+    { id: 5, name: 'Partenaire 5', logo: '/images/partner/partner5.jpeg' },
+    { id: 5, name: 'Partenaire 6', logo: '/images/partner/partner6.jpeg' }
 ]
 
 const PartenairesSection = () => {
