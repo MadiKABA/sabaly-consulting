@@ -113,12 +113,17 @@ const AboutSection = () => {
                             transition={{ duration: 0.5 }}
                             className="w-full h-full"
                         >
-                            <Image
-                                src="/images/fondatrice.jpg"
-                                alt="Merry D. Niang - Fondatrice"
-                                fill
-                                className="object-cover"
-                            />
+    <Image
+  src="/images/photodirectrice.jpeg"
+  alt="Merry D. Niang - Fondatrice"
+  width={500}
+  height={650}
+  className="object-contain rounded-3xl shadow-xl bg-white"
+  layout="responsive"
+/>
+
+
+                          
                         </motion.div>
                     </motion.div>
 
