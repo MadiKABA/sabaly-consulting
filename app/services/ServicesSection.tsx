@@ -65,7 +65,7 @@ const services = [
 
 export default function ServicesSection() {
     return (
-        <section className="relative bg-slate-50 py-20 px-4 sm:px-6 lg:px-12 overflow-hidden">
+        <section className="relative bg-slate-50 py-20 px-4 sm:px-6 lg:px-12 overflow-hidden" id="services">
             {/* SVG deco top-left */}
             <svg
                 className="absolute top-[-80px] left-[-80px] w-[300px] h-[300px] opacity-10 animate-spin-slow"

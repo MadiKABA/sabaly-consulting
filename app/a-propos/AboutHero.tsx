@@ -16,7 +16,7 @@ export default function AboutHero() {
                         Travailler avec nous
                     </a>
                     <a
-                        href="#mission"
+                        href="/services#services"
                         className="border border-[#005A9C] text-[#005A9C] px-6 py-3 rounded-full font-semibold hover:bg-[#005A9C] hover:text-white transition"
                     >
                         En savoir plus

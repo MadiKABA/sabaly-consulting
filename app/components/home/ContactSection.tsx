@@ -15,7 +15,7 @@ const ContactSection = () => {
             transition={{ duration: 0.8 }}
             className="w-full py-20 bg-white"
         >
-            <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12" id='contact'>
                 {/* Map & adresse */}
                 <div id='contact' className="rounded-lg overflow-hidden shadow-md">
                     <iframe

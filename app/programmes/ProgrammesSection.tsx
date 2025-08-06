@@ -22,8 +22,8 @@ const programmes = [
       "Préparation au pitch investisseur / institution",
       "Accès à notre réseau de partenaires et financeurs",
       "Suivi post-création",
-    ],
-    examples: "Ils nous ont fait confiance : SABAN AGRO, LAB’EQUIP, SophieResto…",
+    ]
+    
   },
   {
     title: "Non-Profit Growth Lab",
@@ -42,15 +42,13 @@ const programmes = [
       "Accompagnement à la rédaction de propositions et levée de fonds",
       "Coaching des équipes de direction",
       "Digitalisation des processus (ERP, suivi budgétaire, etc.)",
-    ],
-    examples:
-      "Exemples : Projet E4Y, Institut Pasteur, ONU Femmes, REPSFECO, Ministères SEN...",
+    ]
   },
 ];
 
 export default function ProgrammesSection() {
   return (
-    <section className="relative py-24 bg-gray-100 text-gray-800 overflow-hidden">
+    <section className="relative py-24 bg-gray-100 text-gray-800 overflow-hidden" id="programmes">
       {/* SVG décoratifs */}
       <div className="absolute top-0 left-0 z-0 w-64 h-64 opacity-20">
         <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -109,7 +107,7 @@ export default function ProgrammesSection() {
                 </ul>
               </div>
 
-              <p className="italic text-gray-500">{prog.examples}</p>
+              {/* <p className="italic text-gray-500">{prog.examples}</p> */}
             </motion.article>
           ))}
         </div>

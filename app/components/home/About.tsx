@@ -20,7 +20,7 @@ const fadeInUp = {
 
 const AboutSection = () => {
     return (
-        <section className="w-full py-20 bg-white overflow-hidden">
+        <section className="w-full py-20 bg-white overflow-hidden" id='about'>
             <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-16 items-center">
                 {/* LEFT - Text Content */}
                 <div>

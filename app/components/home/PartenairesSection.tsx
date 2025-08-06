@@ -21,7 +21,7 @@ const PartenairesSection = () => {
         <section
             className="w-full py-20 relative overflow-hidden"
             style={{
-                backgroundImage: `linear-gradient(135deg, rgba(14, 36, 67, 0.5) 0%, rgba(14, 36, 67, 0.2) 100%)`,
+                // backgroundImage: `linear-gradient(135deg, rgba(14, 36, 67, 0.5) 0%, rgba(14, 36, 67, 0.2) 100%)`,
                 backgroundRepeat: 'repeat',
                 backgroundSize: 'contain',
             }}
@@ -69,7 +69,7 @@ const PartenairesSection = () => {
                                     alt={partner.name}
                                     width={140}
                                     height={70}
-                                    className="object-contain grayscale hover:grayscale-0 transition duration-300 max-h-[70px]"
+                                    className="object-contain  transition duration-300 max-h-[70px]"
                                 />
                             </motion.div>
                         </SwiperSlide>

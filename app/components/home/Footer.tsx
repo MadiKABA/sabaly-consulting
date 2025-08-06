@@ -14,16 +14,16 @@ const Footer = () => {
                         Cabinet de conseil sénégalais engagé aux côtés des PMEs, startups et ONG pour construire des structures solides, efficaces et résilientes.
                     </p>
                     <div className="flex space-x-3">
-                        <a href="#" className="p-2 rounded-full border border-blue-500 transition hover:scale-110">
+                        <a href="https://www.facebook.com/profile.php?id=61579309882904&mibextid=wwXIfr&rdid=Fp3xRV7av4Av6vZ7&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FaF9wBWeo%2F%3Fmibextid%3DwwXIfr#" className="p-2 rounded-full border border-blue-500 transition hover:scale-110">
                             <FaFacebookF />
                         </a>
-                        <a href="#" className="p-2 rounded-full border border-blue-500 transition hover:scale-110">
+                        <a href="https://www.linkedin.com/company/sabaly-consulting/" className="p-2 rounded-full border border-blue-500 transition hover:scale-110">
                             <FaLinkedinIn />
                         </a>
                         <a href="#" className="p-2 rounded-full border border-blue-500 transition hover:scale-110">
                             <FaTwitter />
                         </a>
-                        <a href="#" className="p-2 rounded-full border border-blue-500 transition hover:scale-110">
+                        <a href="https://www.instagram.com/sabaly_consulting?igsh=eXQ0bDhya216bHJ1&utm_source=qr" className="p-2 rounded-full border border-blue-500 transition hover:scale-110">
                             <FaInstagram />
                         </a>
                     </div>
@@ -35,11 +35,11 @@ const Footer = () => {
                     <div className="w-12 h-1 bg-orange-500 mb-4"></div>
                     <ul className="space-y-2 text-sm text-gray-300">
                         <li><a href="#" className="hover:text-orange-400 transition">Accueil</a></li>
-                        <li><a href="#" className="hover:text-orange-400 transition">À propos</a></li>
-                        <li><a href="#" className="hover:text-orange-400 transition">Services</a></li>
-                        <li><a href="#" className="hover:text-orange-400 transition">Formations</a></li>
-                        <li><a href="#" className="hover:text-orange-400 transition">Interventions</a></li>
-                        <li><a href="#" className="hover:text-orange-400 transition">Contact</a></li>
+                        <li><a href="#about" className="hover:text-orange-400 transition">À propos</a></li>
+                        <li><a href="#services" className="hover:text-orange-400 transition">Services</a></li>
+                        <li><a href="#programmes" className="hover:text-orange-400 transition">programmes</a></li>
+                        <li><a href="#references" className="hover:text-orange-400 transition">Nos Partenaires</a></li>
+                        <li><a href="#contact" className="hover:text-orange-400 transition">Contact</a></li>
                     </ul>
                 </div>
 

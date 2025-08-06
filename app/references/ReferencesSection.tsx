@@ -6,41 +6,41 @@ const references = [
         icon: <FaUniversity className="text-indigo-600 text-2xl" />,
         title: "Secteur public & éducation",
         items: [
-            "Ministère de l’Éducation Nationale du Sénégal : assistance financière et technique (PASEB, ADEMII), diagnostics organisationnels.",
+            "assistance financière et technique , diagnostics organisationnels.",
         ],
     },
     {
         icon: <FaMicroscope className="text-indigo-600 text-2xl" />,
         title: "Recherche & enseignement supérieur",
         items: [
-            "AIMS Sénégal : retraitement des états financiers (IFRS/SYSCOHADA).",
-            "Institut Pasteur de Dakar : transformation du reporting financier (avec NKAC Audit & Conseil).",
+            "retraitement des états financiers (IFRS/SYSCOHADA).",
+            " transformation du reporting financier .",
         ],
     },
     {
         icon: <FaBuilding className="text-indigo-600 text-2xl" />,
         title: "Secteur privé",
         items: [
-            "SCCT : due diligence pour une acquisition stratégique.",
-            "Awa et Khassim : diagnostic, restructuration, digitalisation, mise en place de processus.",
-            "SophieResto, SABAN AGRO, TIAK TIAK, TITUS MEDICAL, LAB’EQUIP : business plans et accompagnement stratégique.",
+            "due diligence pour une acquisition stratégique.",
+            " diagnostic, restructuration, digitalisation, mise en place de processus.",
+            " business plans et accompagnement stratégique.",
         ],
     },
     {
         icon: <FaHandsHelping className="text-indigo-600 text-2xl" />,
         title: "ONG & bailleurs",
         items: [
-            "Teranga Gestion : manuel de procédures du projet E4Y.",
-            "REPSFECO : manuels, protocoles et conventions dans 15 pays CEDEAO (projet ONUFEMMES).",
-            "Urgence Écologique : rédaction de manuels de procédures.",
-            "Appui à la structuration, digitalisation et mise en conformité de projets financés par FCDO, Mastercard Foundation, ONUFEMMES, Bill & Melinda Gates, etc.",
+            " manuel de procédures du projet E4Y.",
+            " manuels, protocoles et conventions dans 15 pays CEDEAO (projet ONUFEMMES).",
+            "rédaction de manuels de procédures.",
+            "Appui à la structuration, digitalisation et mise en conformité de projets financés.",
         ],
     },
 ];
 
 const ReferencesSection: FC = () => {
     return (
-        <section className="relative bg-white py-20 px-6 md:px-12 lg:px-24 overflow-hidden">
+        <section className="relative bg-white py-20 px-6 md:px-12 lg:px-24 overflow-hidden" id="references">
             {/* SVG décoratif bleu */}
             <svg
                 className="absolute top-[-80px] left-[-80px] w-[300px] h-[300px] opacity-10 animate-spin-slow"

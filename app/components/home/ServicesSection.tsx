@@ -47,7 +47,7 @@ const fadeInUp = {
 
 const ServicesSection = () => {
     return (
-        <section className="relative w-full overflow-hidden bg-[#0B1E3A] text-white py-20">
+        <section className="relative w-full overflow-hidden bg-[#0B1E3A] text-white py-20" id='services'>
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
                 <motion.h2
                     initial="hidden"
